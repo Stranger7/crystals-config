@@ -19,11 +19,5 @@
     "psr-4": {
       "": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/Stranger7/crystals-utils"
-    }
-  ]
+  }
 }
