@@ -1,0 +1,29 @@
+{
+  "name": "crystals/config",
+  "type": "library",
+  "description": "Config package",
+  "authors": [
+    {
+      "name": "Crystals",
+      "email": "novikov.stranger@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "crystals/utils": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Stranger7/crystals-utils"
+    }
+  ]
+}
