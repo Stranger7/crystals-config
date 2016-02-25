@@ -93,7 +93,6 @@ class Config
                 return $currentPointer;
             }
         }
-
         return $currentPointer;
     }
 }
