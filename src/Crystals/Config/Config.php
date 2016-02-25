@@ -9,7 +9,7 @@
 namespace Crystals\Config;
 
 use Crystals\Utils\Arr;
-use Crystals\Utils\File;
+use Crystals\Utils\Script;
 
 /**
  * Class Config
@@ -77,7 +77,7 @@ class Config
      */
     private function loadFile($filename)
     {
-        return Arr::cast((new File())->setName($filename)->load(true));
+        return Arr::cast((new Script())->setName($filename)->load(true));
     }
 
     /**
